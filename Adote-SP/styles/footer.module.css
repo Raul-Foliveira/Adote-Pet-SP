@@ -1,0 +1,42 @@
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .socialLinks {
+    margin-top: 10px;
+  }
+  
+  .socialLinks a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLinks a:hover {
+    color: #f1c40f;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px;
+    }
+  
+    .socialLinks a {
+      margin: 0 5px;
+      font-size: 14px;
+    }
+  }
+  

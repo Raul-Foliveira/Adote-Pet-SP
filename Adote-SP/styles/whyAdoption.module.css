@@ -1,0 +1,38 @@
+.whyAdoption {
+  padding: 40px;
+  background-color: #eef6f9;
+  text-align: center;
+}
+
+.whyAdoption h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .whyAdoption {
+    padding: 20px;
+  }
+
+  .whyAdoption h2 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}
