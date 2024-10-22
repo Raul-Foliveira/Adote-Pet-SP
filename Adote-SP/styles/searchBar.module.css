@@ -40,7 +40,8 @@
   
   /* Estilo do botão de busca */
   .searchBar button {
-    background-color: #4CAF50;
+    background-color: #FF9915;
+    text-shadow: 2px 2px 4px black;
     color: white;
     border: none;
     padding: 10px 20px;

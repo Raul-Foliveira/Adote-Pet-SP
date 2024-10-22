@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Adote SP - Encontre seu novo melhor amigo</title>
+        <title>Patas Unidas - Encontre seu novo melhor amigo</title>
         <meta name="description" content="Conectando abrigos de animais com pessoas interessadas em adotar cães e gatos em São Paulo." />
       </Head>
 

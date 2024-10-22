@@ -44,8 +44,9 @@
 }
 
 .banner button {
-  background-color: #4CAF50; /* Cor de fundo verde */
-  color: white; /* Cor do texto */
+  background-color: #FF9915; 
+  color: white; 
+  text-shadow: 2px 2px 4px black;
   border: none; /* Sem borda */
   padding: 15px 30px; /* Espaçamento interno */
   font-size: 18px; /* Tamanho da fonte */
