@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #00686C; /* Preenche toda a altura da tela */
+}
+
+.imageContainer {
+    flex: 1; /* A imagem ocupa metade da tela */
+    overflow: hidden; /* Garante que a imagem não saia da área */
+}
+
+.image {
+    width: 100%; /* A imagem ocupa toda a largura do contêiner */
+    height: 100%; /* A imagem ocupa toda a altura do contêiner */
+    object-fit: cover; /* Cobre a área sem distorcer */
+}
+
+.loginContainer {
+    color: white;
+    flex: 1; /* O contêiner de login ocupa a outra metade */
+    margin: auto; /* Centraliza verticalmente */
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #00686C;
+    text-shadow: 2px 2px 4px black;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    margin: 0% 0% 0% 25%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.input {
+    width: 50%;
+    margin: 0% 0% 0% 25%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center; /* Centraliza o botão */
+}
+
+.welcomeTitle {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.button {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FF9915; 
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: #1b291e;
+}

@@ -8,6 +8,7 @@ import Footer from '../components/footer';
 import WhyAdoption from '../components/WhyAdoption';
 
 
+
 export default function Home() {
   return (
     <div>
