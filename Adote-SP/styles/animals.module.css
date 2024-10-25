@@ -53,9 +53,9 @@
   
  
   .animalCard button {
-    background-color: #FF9915;
-    text-shadow: 2px 2px 4px black;
-    color: white;
+    background-color: #FF9915; 
+    color: white; 
+    text-shadow: 1px 1px 5px black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -65,6 +65,7 @@
   }
   
   .animalCard button:hover {
-    background-color: #45a049;
+    background-color: #c57702; 
+    transform: scale(1.05); 
   }
   

@@ -1,77 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
 .banner {
-  font-family: "Oswald", sans-serif;
   background-image: url('/images/banner.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 80px 50px;
+  padding: 100px 50px;
   position: relative;
   min-height: 350px;
 }
 
-.banner::before {
-  position: relative;
-  z-index: 2;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-.banner p {
-  position: relative;
-  z-index: 2;
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 5); 
-}
-
 .banner h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
   font-size: 3rem;
+  margin-top: 50px;
   margin-bottom: 25px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); 
 }
 
 .banner p {
+  font-family: "Lilita One", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 20px;
   color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para o parágrafo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .banner button {
   background-color: #FF9915; 
   color: white; 
-  text-shadow: 2px 2px 4px black;
-  border: none; /* Sem borda */
-  padding: 15px 30px; /* Espaçamento interno */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Cantos arredondados */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  transition: background-color 0.3s, transform 0.2s; /* Transições para efeito ao passar o mouse */
+  text-shadow: 1px 1px 5px black;
+  border: none; 
+  padding: 15px 30px; 
+  font-size: 18px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s; 
 }
 
 .banner button:hover {
-  background-color: #45a049; /* Cor de fundo ao passar o mouse */
-  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+  background-color: #c57702; 
+  transform: scale(1.05); 
 }
 
 .banner button:focus {
   outline: none; 
-  box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); 
 }
-
 
 @media (max-width: 768px) {
   .banner h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
 
   .banner p {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 }

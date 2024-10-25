@@ -23,7 +23,7 @@ const Login = () => {
                 <img src="/images/gatoLogin.jpg" alt="Imagem de fundo" className={styles.image} />
             </div>
             <div className={styles.loginContainer}>
-                <h1 className={styles.welcomeTitle}>Bem vindo</h1>
+                <h1 className={styles.welcomeTitle}>Bem vindo!</h1>
                 <h2 className={styles.title}>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.formGroup}>

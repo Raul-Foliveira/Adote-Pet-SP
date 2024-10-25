@@ -26,9 +26,10 @@
 }
 
 .adoptButton {
+    background-color: #FF9915; 
+    color: white; 
+    text-shadow: 1px 1px 5px black;
     padding: 10px 15px;
-    background-color: #28a745;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -36,5 +37,6 @@
 }
 
 .adoptButton:hover {
-    background-color: #218838;
+    background-color: #c57702; 
+    transform: scale(1.05); 
 }

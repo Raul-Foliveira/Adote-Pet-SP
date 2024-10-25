@@ -8,6 +8,7 @@
   }
   
   .footer p {
+    font-family: "Telex", sans-serif;
     margin: 0;
     font-size: 14px;
   }
@@ -17,10 +18,11 @@
   }
   
   .socialLinks a {
+    font-family: "Telex", sans-serif;
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 15px;
     transition: color 0.3s ease;
   }
   
