@@ -48,6 +48,9 @@ const Login = () => {
                             required
                         />
                     </div>
+
+                    <p className={styles.forgotPassword}>Esqueceu a sua senha?</p>
+                    
                     <div className={styles.buttonContainer}>
                         <button className={styles.button} type="submit">Entrar</button>
                     </div>

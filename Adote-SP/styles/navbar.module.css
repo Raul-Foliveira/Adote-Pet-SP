@@ -1,33 +1,47 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #00686C;
-    margin: 0;
-  }
-  
-  .logo a {
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
-  }
-  
-  .navLinks {
-    font-family: "Telex", sans-serif;
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin-right: 1%;
-  }
-  
-  .navLinks li a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  
-  .navLinks li a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #00686C;
+  margin: 0;
+}
+
+.logoImage {
+  height: 80px; /* Ajuste a altura conforme necessário */
+  width: auto; 
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.logoText {
+  color: white; /* Cor do texto */
+  margin-right: 1140px; /* Espaço entre a imagem e o texto */
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navLinks {
+  font-family: "Telex", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 1%;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navLinks li a:hover {
+  text-decoration: underline;
+}
