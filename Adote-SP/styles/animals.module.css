@@ -1,13 +1,14 @@
 .featured {
     padding: 40px;
-    background-color: #f9f9f9;
+    background-color: #f5fafc;
     text-align: center;
   }
   
   .featured h2 {
-    font-size: 2.5rem;
-    color: #333;
+    font-weight: bold;
+    color: #FF9915; 
     margin-bottom: 20px;
+    font-size: 2.5rem;
   }
   
   .animalGrid {
@@ -18,7 +19,7 @@
   }
   
   .animalCard {
-    background-color: #fff;
+    background-color: #fafcfd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -41,13 +42,13 @@
   /* Estilo dos textos */
   .animalCard h3 {
     font-size: 1.5rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 5px;
   }
   
   .animalCard p {
     font-size: 1rem;
-    color: #666;
+    color: #000000;
     margin-bottom: 10px;
   }
   

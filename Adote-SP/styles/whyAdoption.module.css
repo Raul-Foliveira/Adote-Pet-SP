@@ -1,12 +1,13 @@
 .whyAdoption {
   padding: 40px;
-  background-color: #eef6f9;
+  background-color: #f5fafc;
   text-align: center;
 }
 
 .whyAdoption h2 {
+  font-weight: bold;
+  color: #FF9915; 
   font-size: 2.5rem;
-  color: #333;
   margin-bottom: 20px;
 }
 
@@ -18,7 +19,7 @@
 
 .content p {
   font-size: 1.2rem;
-  color: #666;
+  color: #000000;
   line-height: 1.8;
   margin-bottom: 20px;
 }

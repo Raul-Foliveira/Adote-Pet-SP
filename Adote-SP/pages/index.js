@@ -6,6 +6,7 @@ import FeaturedAnimals from '../components/featuredAnimals';
 import Testimonials from '../components/testimonials';
 import Footer from '../components/footer';
 import WhyAdoption from '../components/WhyAdoption';
+import AboutUs from '../components/aboutUs';
 
 
 
@@ -21,8 +22,9 @@ export default function Home() {
       <Banner/>
       <SearchBar/>
       <FeaturedAnimals/>
-      <Testimonials/>
       <WhyAdoption/>
+      <Testimonials/>
+      <AboutUs/>
       <Footer/>
       
     </div>
