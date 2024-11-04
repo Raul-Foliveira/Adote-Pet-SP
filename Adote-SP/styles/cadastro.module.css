@@ -1,0 +1,60 @@
+.cadastro {
+    padding: 40px;
+    background-color: #f5fafc; /* Cor de fundo mais clara */
+    text-align: center;
+}
+
+.cadastro h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submitButton {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff; /* Cor do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .cadastro {
+        padding: 20px;
+    }
+
+    .cadastro h2 {
+        font-size: 2rem;
+    }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/login.module.css'; // ajuste o caminho se necessário
+import Link from 'next/link';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -9,12 +10,6 @@ const Login = () => {
         e.preventDefault();
         console.log('Email:', email);
         console.log('Password:', password);
-    };
-
-    const handleBack = () => {
-        // Lógica para voltar (por exemplo, redirecionar para uma página anterior)
-        console.log("Voltar");
-        // Aqui você pode usar o React Router ou outra lógica para navegar
     };
 
     return (
@@ -50,12 +45,17 @@ const Login = () => {
                     </div>
 
                     <p className={styles.forgotPassword}>Esqueceu a sua senha?</p>
-                    
+
+                    {/* Botão Entrar */}
                     <div className={styles.buttonContainer}>
                         <button className={styles.button} type="submit">Entrar</button>
                     </div>
+
+                    {/* Botão Não possui uma conta */}
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button} type="button" onClick={handleBack}>Voltar</button>
+                        <Link href="/cadastro" passHref>
+                            <button className={styles.button} type="button">Não possui uma conta?</button>
+                        </Link>
                     </div>
                 </form>
             </div>
