@@ -8,18 +8,18 @@
 }
 
 .logoImage {
-  height: 80px; /* Ajuste a altura conforme necessário */
+  height: 80px; 
   width: auto; 
 }
 
 .logo {
   display: flex;
-  align-items: center; /* Alinha verticalmente ao centro */
+  align-items: center; 
 }
 
 .logoText {
-  color: white; /* Cor do texto */
-  margin-right: 1140px; /* Espaço entre a imagem e o texto */
+  color: white; 
+  margin-right: 1140px; 
 }
 
 .logo a {

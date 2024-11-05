@@ -22,6 +22,10 @@ const Login = () => {
                 <h2 className={styles.title}>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.formGroup}>
+
+                        {/* GIF do gato acima do campo de email */}
+                        <img src="/images/cat.png" alt="Eu acho que vi um gatinho" className={styles.cat} />
+                        {/*<img src="/images/dog.png" alt="Eu acho que vi um doguinho" className={styles.dog} />*/}
                         <label className={styles.label} htmlFor="email">Email:</label>
                         <input
                             className={styles.input}
@@ -31,6 +35,7 @@ const Login = () => {
                             onChange={(e) => setEmail(e.target.value)}
                             required
                         />
+
                     </div>
                     <div className={styles.formGroup}>
                         <label className={styles.label} htmlFor="password">Senha:</label>
@@ -59,6 +64,16 @@ const Login = () => {
                     </div>
                 </form>
             </div>
+
+            {/* Imagem de patas decorativa */}
+            <div className={styles.pawsIconContainer}>
+                <img src="/images/patas.png" alt="Ícone de Patas" className={styles.pawsIcon} />
+            </div>
+
+            <div className={styles.pawsIconContainer2}>
+                <img src="/images/patas.png" alt="Ícone de Patas" className={styles.pawsIcon} />
+            </div>
+
         </div>
     );
 };
