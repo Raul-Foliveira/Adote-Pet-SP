@@ -127,76 +127,78 @@
     .title {
         font-size: 1.2rem;
     }
-
-    /* Ajustando o ícone de patas para telas menores */
-    .pawsIconContainer {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 10;
-        width: 40px; /* Menor em telas pequenas */
-        height: 40px;
-    }
-
-    .pawsIcon {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        opacity: 0.8;
-    }
-
-    /* Ajustando o GIF para telas menores */
-    .cat {
-        top: -25px;
-        right: 10px; /* Coloca o gif no canto direito */
-        width: 40px; /* Reduz o tamanho do GIF */
-        height: 40px;
-    }
 }
-
-/* Estilos para a imagem de patas no canto */
+    /* Ajustando o ícone de patas para telas menores */
+    
+/* Ajustando o ícone de patas para telas menores */
+/* Ajuste geral para ícones em telas grandes */
 .pawsIconContainer {
     position: absolute;
-    top: 15px; /* Ajuste conforme necessário */
-    right: 15px; /* Ajuste conforme necessário */
+    top: calc(2% + 1rem);
+    right: calc(2% + 1rem);
     z-index: 10;
+    width: 3rem;
+    height: auto;
 }
 
 .pawsIconContainer2 {
     position: absolute;
-    top: 680px; /* Ajuste conforme necessário */
-    right: 730px; /* Ajuste conforme necessário */
+    top: calc(96% - 1rem);
+    right: 48%;
+    transform: translate(50%, -50%);
     z-index: 10;
+    width: 3rem;
 }
 
-.pawsIcon {
-    width: 75px; /* Ajuste o tamanho da imagem conforme necessário */
-    object-fit: contain;
-    transform: rotate(15deg);
-    opacity: 0.8; /* Levemente transparente para dar um efeito sutil */
-    transition: opacity 0.3s ease;
-}
-
-.pawsIcon:hover {
-    opacity: 3; /* Ao passar o mouse, a opacidade aumenta */
-}
 
 .cat {
     position: absolute;
-    top: -35px; 
-    right: 215px; 
-    width: 60px; 
-    height: 60px;
+    top: calc(-105% + 1rem);
+    right: calc(25% + 1rem);
+    width: 4rem;
+    height: auto;
     object-fit: contain;
-    opacity: 0.9; 
+    opacity: 0.9;
 }
 
 .dog {
     position: absolute;
-    top:  40px; 
-    right: 215px; 
-    width: 45px; 
-    height: 50px;
+    top: calc(15% + 1rem);
+    right: calc(5% + 1rem);
+    width: 4rem;
+    height: auto;
     object-fit: contain;
-    opacity: 0.9; 
+    opacity: 0.9;
+}
+
+
+/* Estilos para dispositivos com largura menor ou igual a 768px */
+@media (max-width: 768px) {
+    .pawsIconContainer {
+        top: calc(0% + 1rem);  /* Ajuste a posição do topo */
+        right: calc(8% + 1rem); /* Ajuste a posição da direita */
+        width: 3rem; /* Diminui o tamanho para se ajustar melhor à tela */
+    }
+
+    .pawsIconContainer2 {
+        top: 95%; /* Move mais para baixo na versão mobile */
+        right: 95%;
+        transform: translate(40%, -50%);
+        width: 2rem; /* Ajuste o tamanho do ícone */
+    }
+
+    /* Ajuste específico para o GIF */
+    .cat {
+        top: calc(-85% + 1rem); /* Ajusta a posição do topo para versão mobile */
+        right: calc(5% + 1rem); /* Ajuste a posição da direita */
+        width: 3rem; /* Reduz o tamanho do ícone */
+        height: auto;
+    }
+
+    .dog {
+        top: calc(25% + 1rem); /* Posiciona um pouco mais para baixo */
+        right: calc(10% + 1rem);
+        width: 3rem; /* Reduz o tamanho do ícone */
+        height: auto;
+    }
 }
