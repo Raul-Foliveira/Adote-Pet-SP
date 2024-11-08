@@ -7,6 +7,7 @@ import Testimonials from '../components/testimonials';
 import Footer from '../components/footer';
 import WhyAdoption from '../components/WhyAdoption';
 import AboutUs from '../components/aboutUs';
+import AnimalButtons from '../components/animalButtons';
 
 
 
@@ -25,6 +26,7 @@ export default function Home() {
       <WhyAdoption/>
       <Testimonials/>
       <AboutUs/>
+      <AnimalButtons/>
       <Footer/>
       
     </div>
