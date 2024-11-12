@@ -1,4 +1,5 @@
 // components/DogGallery.js
+//API DO BOTAO PROXIMO AO FOOTER
 import React, { useState, useEffect } from 'react';
 import { fetchDogImages } from './API/dogAPI';
 import styles from '../styles/DogGallery.module.css';
